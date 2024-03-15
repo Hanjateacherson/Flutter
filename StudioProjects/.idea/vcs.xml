@@ -3,7 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SMHRD" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SMHRD/SMHRD" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ex03stateful" vcs="Git" />
   </component>
 </project>
