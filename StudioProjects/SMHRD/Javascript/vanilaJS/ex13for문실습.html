@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1~20까지의 숫자 중 홀/짝수의 합과 숫자들이 각각 출력되도록 구현
+        let evenSum = 0; //짝수의 합
+        let oddSum = 0; //홀수의 합
+        let evenNum = ''; //짝수 숫자
+        let oddNum = ''; //홀수 숫자
+
+        for(let i=1; i<21; i++){
+            if(i%2 === 0){
+                evenNum += i + ' ';
+                evenSum += i;
+            }else{
+                oddNum += i + ' ';
+                oddSum += i;
+            }
+        }
+
+        console.log(`${evenNum}의합: ${evenSum}`);
+        console.log(`${oddNum}의합: ${oddSum}`);
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

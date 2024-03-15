@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let box = parseInt(prompt('한박스에 담을수 있는 오렌지 수 를 입력해주세요'));
+        let orange = parseInt(prompt('현재 오렌지의 개수를 입력해주세요'));
+
+        console.log(box, orange);
+
+        let result = orange%box === 0? orange/box : parseInt(orange/box) + 1;
+
+        console.log(`필요한 박수의 수 : ${result}`);
+        
+
+
+
+    </script>
+</body>
+</html>
